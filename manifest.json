@@ -1,0 +1,24 @@
+{
+"manifest_version": 2,
+"name" : "Keyword History Cleaner",
+
+"homepage_url": "http://github.com/ankit9971/",
+  "version": "2.0",
+
+"icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/icon-19.png",
+      "38": "icons/icon-38.png"
+    },
+    "default_title": "Delete Specific url history",
+    "default_popup": "popup/popup.html"
+  },
+"permissions": [
+    "history"
+  ]
+
+}
